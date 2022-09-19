@@ -7,10 +7,10 @@ $("#close").click(() => {
 });
 
 $(".img-prd").click(() => {
-  window.location.href = "/sproduct.html";
+  window.location.href = "https://ngpham1123.github.io/cara-fashion/sproduct.html";
 });
 $(".des").click(() => {
-  window.location.href = "/sproduct.html";
+  window.location.href = "https://ngpham1123.github.io/cara-fashion/sproduct.html";
 });
 
 $("a[href='#']").click((event) => {
