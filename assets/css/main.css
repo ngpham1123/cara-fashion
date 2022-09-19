@@ -81,10 +81,6 @@ button.white {
   transition: 0.2s;
 }
 
-#main {
-  overflow-x: hidden;
-}
-
 #header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -154,10 +150,6 @@ button.white {
 }
 
 @media (max-width: 799px) {
-  #main {
-    max-width: 799px;
-    overflow-x: hidden;
-  }
 
   #navbar {
     -webkit-box-orient: vertical;
@@ -170,7 +162,7 @@ button.white {
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: flex-start;
-    position: absolute;
+    position: fixed;
     top: 0;
     right: -300px;
     height: 100vh;
